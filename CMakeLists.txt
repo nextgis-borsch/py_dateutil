@@ -89,7 +89,7 @@ if(NOT EXISTS ${CMAKE_CURRENT_BINARY_DIR}/${OUT_DIR_NAME})
 endif()
 
 if(NOT SKIP_INSTALL_LIBRARIES AND NOT SKIP_INSTALL_ALL )
-    install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/${OUT_DIR_NAME}/dateutil/ DESTINATION ${INSTALL_LIB_DIR}/dateutil/)
+    install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/${OUT_DIR_NAME}/src/dateutil/ DESTINATION ${INSTALL_LIB_DIR}/dateutil/)
 endif()
 
 # Archiving ====================================================================
